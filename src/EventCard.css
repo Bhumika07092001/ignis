@@ -1,0 +1,42 @@
+.event-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .event-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+  }
+  
+  .event-image {
+    width: 100%;
+    border-radius: 5px 5px 0 0; /* Rounded corners for the top of the image */
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .like-button, .share-button {
+    background-color: #ffffff;
+    color: #fff;
+    border:0px white;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+
+  

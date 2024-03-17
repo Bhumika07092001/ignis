@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff; /* Eventbrite color */
+    color:black;
+    padding: 10px 20px;
+    border-top: 5px solid #000; /* Thin black line at the top */
+    border-bottom: 0.5px solid #000;
+    margin-top: 20px;
+  }
+  
+  .brand {
+    font-size: 24px;
+  }
+  
+  .brand-text {
+    font-weight: bold;
+    color: rgb(233, 58, 4);
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 10px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #0e0e0e;
+  }
+  
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  
